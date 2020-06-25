@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\domin\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\domin\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Kolokwium1Poprawa.1305765366.00" t="ExcludeRecursive" />
+    <e p="C:\Users\domin\RiderProjects\Kolokwium1Poprawa" t="IncludeFlat">
+      <e p="Kolokwium1Poprawa" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include" />
+        <e p="DTOs" t="Include">
+          <e p="Request" t="Include" />
+          <e p="Response" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include" />
+        <e p="Kolokwium1Poprawa.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Kolokwium1Poprawa.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IServiceDataBase.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="Kolokwium1Poprawa.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
