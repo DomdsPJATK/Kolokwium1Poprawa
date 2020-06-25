@@ -12,8 +12,8 @@
           <e p="TasksController.cs" t="Include" />
         </e>
         <e p="DTOs" t="Include">
-          <e p="Request" t="Include" />
-          <e p="Response" t="Include">
+          <e p="Requests" t="Include" />
+          <e p="Responses" t="Include">
             <e p="GetMemberResponse.cs" t="Include" />
             <e p="GetTaskMemberResponse.cs" t="Include" />
           </e>
