@@ -28,6 +28,20 @@ namespace Kolokwium1Poprawa.Controllers
                 return NotFound(e.Message);
             }
         }
+        
+        [HttpDelete("{id:int}")]
+        public IActionResult deleteProject(int id)
+        {
+            try
+            {
+                _service.DeleteProject(id);
+                return Ok();
+            }
+            catch (ProjectDoesNotExistException e)
+            {
+                return NotFound(e.Message);
+            }
+        }
 
     }
 }

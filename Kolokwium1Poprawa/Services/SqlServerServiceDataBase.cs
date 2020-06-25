@@ -92,8 +92,7 @@ namespace Kolokwium1Poprawa.Services
 
                     while (dataReader.Read())
                     {
-                        com.CommandText =
-                            $"DELETE FROM Task WHERE IdTask = {dataReader.GetString(0)}";
+                        com.CommandText = $"DELETE FROM Task WHERE IdTask = {dataReader.GetString(0)}";
                         com.ExecuteNonQuery();
                     }
 
