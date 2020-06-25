@@ -82,6 +82,7 @@ namespace Kolokwium1Poprawa.Services
 
                     if (!dataReader.Read())
                     {
+                        com.Transaction.Rollback();
                         dataReader.Close();
                         throw new ProjectDoesNotExistException($"Projekt o id: {id} nie istnieje!");
                     }
